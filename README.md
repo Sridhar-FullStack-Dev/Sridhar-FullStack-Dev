@@ -1,4 +1,4 @@
-👋 Hi, I’m @Sridhar-FullStack-Dev
+👋 Hi, I’m [@Sridhar-FullStack-Dev](https://github.com/Sridhar-FullStack-Dev/Sridhar-FullStack-Dev/)
 
 👀 I’m interested in full-stack web development and software engineering, with a particular passion for building robust and user-friendly web applications.
 
@@ -12,5 +12,5 @@
 |-------------------------|----------------------------------------
 | **Personal Email:**     | 📧 sridhar22122002@gmail.com            
 | **LinkedIn:**           | 🔗 [LinkedIn Profile](https://www.linkedin.com/in/sridhar-egambaram-1720721a8/) |
-| **GitHub:**             | 👉 @Sridhar-FullStack-Dev              
+| **GitHub:**             | 👉 [@Sridhar-FullStack-Dev](https://github.com/Sridhar-FullStack-Dev/Sridhar-FullStack-Dev/)              
 | **Portfolio:**          | 💼 [Portfolio](https://sridhar-web-community.web.app/) 
