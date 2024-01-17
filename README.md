@@ -63,7 +63,7 @@
 
 ###
 
-<div align="left">
+<div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Sridhar-FullStack-Dev&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Sridhar-FullStack-Dev&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
 </div>
@@ -78,6 +78,8 @@
 
 ###
 
-<img src="https://raw.githubusercontent.com/Sridhar-FullStack-Dev/Sridhar-FullStack-Dev/output/snake.svg" alt="Snake animation" />
+<div align="left">
+  <img height="500" src="https://sridhar-portfolio-ashen.vercel.app/_next/image?url=%2Fassets%2Fimg.jpg&w=3840&q=75"  />
+</div>
 
 ###
