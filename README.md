@@ -11,7 +11,7 @@
 
 ###
 
-<div align="center">
+<div align="left">
   <img src="https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white&style=for-the-badge" height="30" alt="vercel logo"  />
   <img width="12" />
   <img src="https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white&style=for-the-badge" height="30" alt="nextjs logo"  />
