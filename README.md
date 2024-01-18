@@ -2,7 +2,16 @@
 
 ###
 
+<br clear="both">
+
 <div align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=Sridhar-FullStack-Dev&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Sridhar-FullStack-Dev&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=swift&hide_border=true&order=2" height="150" alt="languages graph"  />
+</div>
+
+###
+
+<div align="center">
   <img src="https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white&style=for-the-badge" height="30" alt="vercel logo"  />
   <img width="12" />
   <img src="https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white&style=for-the-badge" height="30" alt="nextjs logo"  />
@@ -38,15 +47,6 @@
   <img src="https://img.shields.io/badge/Redux-764ABC?logo=redux&logoColor=white&style=for-the-badge" height="30" alt="redux logo"  />
   <img width="12" />
   <img src="https://img.shields.io/badge/WordPress-21759B?logo=wordpress&logoColor=white&style=for-the-badge" height="30" alt="wordpress logo"  />
-</div>
-
-###
-
-<br clear="both">
-
-<div align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=Sridhar-FullStack-Dev&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Sridhar-FullStack-Dev&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=swift&hide_border=true&order=2" height="150" alt="languages graph"  />
 </div>
 
 ###
