@@ -1,14 +1,12 @@
 <br clear="both">
 
-<h2 align="left">Hi 👋! My name is Sridhar and I'm a Fullstack web developer from Tamilnadu.</h2>
+<h2 align="left">🌟About Me:</h2>
 
 ###
 
-<h4 align="left">Skills I have 👇</h4>
+<h3 align="left">💻 Tech Stack:</h3>
 
 ###
-
-<br clear="both">
 
 <div align="left">
   <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge" height="25" alt="typescript logo"  />
@@ -52,29 +50,31 @@
 
 ###
 
-<h4 align="left">check my socials 👇</h4>
+<h3 align="left">🌐 Socials:</h3>
 
 ###
 
-<br clear="both">
-
 <div align="left">
   <a href="https://www.instagram.com/sridhar._.official" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=flat" height="23" alt="instagram logo"  />
+    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="23" alt="instagram logo"  />
   </a>
   <a href="mailto:sridhar22122002@gmail.com" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=flat" height="23" alt="gmail logo"  />
+    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="23" alt="gmail logo"  />
   </a>
   <a href="https://www.linkedin.com/in/sridhar-egambaram-1720721a8/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=flat" height="23" alt="linkedin logo"  />
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="23" alt="linkedin logo"  />
   </a>
   <a href="mailto:sridhar211@outlook.com" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Outlook&logo=microsoft-outlook&label=&color=0078D4&logoColor=white&labelColor=&style=flat" height="23" alt="microsoft-outlook logo"  />
+    <img src="https://img.shields.io/static/v1?message=Outlook&logo=microsoft-outlook&label=&color=0078D4&logoColor=white&labelColor=&style=for-the-badge" height="23" alt="microsoft-outlook logo"  />
   </a>
   <a href="wa.me/9843849354" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Whatsapp&logo=whatsapp&label=&color=25D366&logoColor=white&labelColor=&style=flat" height="23" alt="whatsapp logo"  />
+    <img src="https://img.shields.io/static/v1?message=Whatsapp&logo=whatsapp&label=&color=25D366&logoColor=white&labelColor=&style=for-the-badge" height="23" alt="whatsapp logo"  />
   </a>
 </div>
+
+###
+
+<h3 align="left">📊 Github Stats:</h3>
 
 ###
 
