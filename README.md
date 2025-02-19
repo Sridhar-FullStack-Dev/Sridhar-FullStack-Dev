@@ -4,5 +4,5 @@
 
 <div style="display: flex; justify-content: start; align-items: center;">
 <img style="pointer-events: none; display: block; width:auto;" src="https://user-images.githubusercontent.com/74038190/216656952-f8beff5b-935b-4157-a199-5c504b36a810.gif" alt="welcome to my github profile"  />
-<img style="pointer-events: none; display: block; width:auto;" src="https://user-images.githubusercontent.com/74038190/216649430-0a912dae-e61b-45cf-8f65-895bd6444f3a.gif" alt="welcome to my github profile"  />
+<img style="pointer-events: none; display: block; width:auto;" src="https://user-images.githubusercontent.com/74038190/212898774-0a96dc1d-c908-4ce8-9dd7-a71aab6e1c2b.gif" alt="welcome to my github profile"  />
 </div>
