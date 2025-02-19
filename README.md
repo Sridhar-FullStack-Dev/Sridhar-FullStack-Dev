@@ -1,4 +1,4 @@
-<div align="left" style="margin-bottom: 12px;">
+<div align="left" style="margin-bottom: 12rem;">
   <img style="pointer-events: none; display: block; width:100vw;" src="https://github-production-user-asset-6210df.s3.amazonaws.com/74038190/240906093-9be4d344-6782-461a-b5a6-32a07bf7b34e.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250219%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250219T125106Z&X-Amz-Expires=300&X-Amz-Signature=304c57ad11842da8eed28850c5004dc60fb266165d9e1d0d16c5b8e420ac9a5a&X-Amz-SignedHeaders=host" alt="welcome to my github profile"  />
 </div>
 
