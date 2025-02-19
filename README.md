@@ -1,4 +1,4 @@
-<div align="left">
+<div align="left" style="width: 100vw">
   <img style="pointer-events: none; display: block;" src="https://octodex.github.com/images/nyantocat.gif"  />
 </div>
 
