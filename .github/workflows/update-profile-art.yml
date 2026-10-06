@@ -8,6 +8,7 @@ on:
     branches: [main]
     paths:
       - "scripts/**"
+      - ".github/workflows/update-profile-art.yml"
 
 permissions:
   contents: write
