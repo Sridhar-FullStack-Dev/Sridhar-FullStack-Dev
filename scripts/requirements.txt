@@ -1,0 +1,7 @@
+# Daily workflow dependencies (scraping & SVG generation)
+requests==2.32.3
+beautifulsoup4==4.12.3
+
+# Image processing dependencies (used locally for ASCII portrait generation)
+pillow
+numpy
