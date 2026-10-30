@@ -15,7 +15,6 @@ import sys
 import cv2
 import numpy as np
 from PIL import Image
-from rembg import remove
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 INP = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "..", "source-photo.png")
@@ -27,8 +26,48 @@ if not os.path.exists(INP):
     print(f"Error: {INP} not found. Place a photo at source-photo.png first.", file=sys.stderr)
     sys.exit(1)
 
+def get_cutout(inp_path):
+    try:
+        from rembg import remove
+        return remove(Image.open(inp_path).convert("RGBA"))
+    except Exception:
+        # Fallback to local onnxruntime using cached bria-rmbg model
+        for p in [
+            "/Users/sridhar/.cache/uv/archive-v0/zTYG50rUHY6DOwmD",
+            os.path.expanduser("~/.cache/uv/archive-v0/zTYG50rUHY6DOwmD"),
+        ]:
+            if os.path.exists(p) and p not in sys.path:
+                sys.path.append(p)
+        import onnxruntime as ort
+
+        model_path = os.path.expanduser("~/.rembg/models/bria-rmbg/bria-rmbg.onnx")
+        if not os.path.exists(model_path):
+            raise RuntimeError(f"Model not found at {model_path}")
+
+        img = Image.open(inp_path).convert("RGB")
+        w, h = img.size
+        resized = img.resize((1024, 1024), Image.Resampling.LANCZOS)
+        ary = np.array(resized).astype(np.float32) / 255.0
+        mean = np.array([0.485, 0.456, 0.406], dtype=np.float32)
+        std = np.array([0.229, 0.224, 0.225], dtype=np.float32)
+        norm = (ary - mean) / std
+        tensor = np.expand_dims(norm.transpose(2, 0, 1), 0)
+
+        opts = ort.SessionOptions()
+        opts.log_severity_level = 3
+        sess = ort.InferenceSession(model_path, sess_options=opts)
+        outs = sess.run(None, {sess.get_inputs()[0].name: tensor})
+        pred = outs[0][:, 0, :, :]
+        pred = (pred - pred.min()) / max(1e-6, (pred.max() - pred.min()))
+        mask_np = (pred[0] * 255).astype(np.uint8)
+        mask = Image.fromarray(mask_np, mode="L").resize((w, h), Image.Resampling.LANCZOS)
+
+        cut = Image.new("RGBA", (w, h), (0, 0, 0, 0))
+        cut.paste(img, mask=mask)
+        return cut
+
 # 1. cut out subject
-cut = remove(Image.open(INP).convert("RGBA"))
+cut = get_cutout(INP)
 rgb = np.array(cut.convert("RGB"))
 alpha = np.array(cut.split()[-1])
 gray = cv2.cvtColor(rgb, cv2.COLOR_RGB2GRAY)
